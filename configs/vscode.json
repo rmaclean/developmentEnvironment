@@ -1,0 +1,26 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "git.confirmSync": false,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "extensions.ignoreRecommendations": false,
+    "explorer.incrementalNaming": "smart",
+    "editor.cursorSurroundingLines": 5,
+    "files.autoSave": "onFocusChange",
+    "workbench.colorTheme": "Dracula",
+    "problems.showCurrentInStatus": true,
+    "terminal.integrated.rendererType": "experimentalWebgl",
+    "editor.rulers": [
+        120
+    ],
+    "git.inputValidationSubjectLength": null,
+    "workbench.colorCustomizations": {
+        "textLink.foreground": "#d91edf",
+        "textLink.activeForeground": "#f826ff",
+        "activityBar.activeBackground": "#b90bb1ad"
+    },
+    "editor.formatOnSaveMode": "modifications"
+}
