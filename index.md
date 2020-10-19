@@ -22,5 +22,5 @@ Home, work, you name it...
 - [VSCode](https://code.visualstudio.com/) is my IDE - [Config File](configs/vscode.json)
 
 ### 3d Printing
-- [Cura](https://ultimaker.com/software/ultimaker-cura) - [Random profiles](cura_profiles/)
+- [Cura](https://ultimaker.com/software/ultimaker-cura) - [Random profiles](https://github.com/rmaclean/developmentEnvironment/tree/gh-pages/cura_profiles)
 - [Fusion 360](https://www.autodesk.com/products/fusion-360/personal)
