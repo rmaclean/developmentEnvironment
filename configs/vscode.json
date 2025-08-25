@@ -1,26 +1,223 @@
 {
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true,
-    "git.autofetch": true,
-    "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
-    "editor.fontLigatures": true,
-    "extensions.ignoreRecommendations": false,
-    "explorer.incrementalNaming": "smart",
-    "editor.cursorSurroundingLines": 5,
-    "files.autoSave": "onFocusChange",
-    "workbench.colorTheme": "Dracula",
-    "problems.showCurrentInStatus": true,
-    "terminal.integrated.rendererType": "experimentalWebgl",
-    "editor.rulers": [
-        120
-    ],
-    "git.inputValidationSubjectLength": null,
-    "workbench.colorCustomizations": {
-        "textLink.foreground": "#d91edf",
-        "textLink.activeForeground": "#f826ff",
-        "activityBar.activeBackground": "#b90bb1ad"
-    },
-    "editor.formatOnSaveMode": "modifications"
+  "git.autofetch": true,
+  "editor.rulers": [80, 120],
+  "prettier.printWidth": 120,
+  "prettier.singleQuote": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.showTabs": "multiple",
+  "breadcrumbs.enabled": true,
+  "editor.tabCompletion": "on",
+  "editor.suggest.localityBonus": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.referencesCodeLens.enabled": true,
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.referencesCodeLens.enabled": true,
+  "files.trimTrailingWhitespace": true,
+  "git.enableSmartCommit": true,
+  "search.showLineNumbers": true,
+  "search.useGlobalIgnoreFiles": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "files.autoSave": "onWindowChange",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+  "javascript.preferences.quoteStyle": "single",
+  "prettier.arrowParens": "always",
+  "workbench.settings.useSplitJSON": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.suggestSelection": "first",
+  "editor.fontFamily": "\"CaskaydiaCove Nerd Font\", monospace",
+  "editor.fontLigatures": true,
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[kotlin]": {
+    "editor.defaultFormatter": "esafirm.kotlin-formatter"
+  },
+  "workbench.colorCustomizations": {
+    "editorCursor.foreground": "#b800b8",
+    "textLink.foreground": "#ac009d",
+    "activityBar.activeBackground": "#ff375f73",
+    "minimap.background": "#000000BB",
+    "settings.modifiedItemIndicator": "#ac009d"
+  },
+  "workbench.editor.untitled.labelFormat": "name",
+  "editor.tabSize": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "versionlens.suggestions.showOnStartup": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.cursorBlinking": "expand",
+  "terminal.integrated.cursorBlinking": true,
+  "editor.suggest.showDeprecated": false,
+  "editor.suggest.preview": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.watcherExclude": {
+    "**/.bloop": true,
+    "**/.metals": true,
+    "**/.ammonite": true
+  },
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.accessibilitySupport": "off",
+  "editor.hover.above": false,
+  "window.dialogStyle": "custom",
+  "editor.linkedEditing": true,
+  "workbench.editor.historyBasedLanguageDetection": true,
+  "editor.quickSuggestions": {
+    "other": "inline",
+    "comments": "off",
+    "strings": "off"
+  },
+  "ltex.additionalRules.motherTongue": "en-ZA",
+  "ltex.language": "en-ZA",
+  "workbench.startupEditor": "none",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "*.ts": "${capture}.js",
+    "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts, ${capture}.test.js",
+    "*.jsx": "${capture}.js",
+    "*.tsx": "${capture}.ts",
+    "tsconfig.json": "tsconfig.*.json",
+    "package.json": "package-lock.json, yarn.lock"
+  },
+  "git.ignoreRebaseWarning": true,
+  "git.mergeEditor": true,
+  "terminal.integrated.shellIntegration.enabled": true,
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.json": "json",
+    "tpl.plugins": "json"
+  },
+  "workbench.editor.tabSizing": "fixed",
+  "workbench.editor.tabSizingFixedMaxWidth": 200,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.layoutControl.enabled": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git-autoconfig.configList": [
+    {
+      "user.email": "robert@sadev.co.za",
+      "user.name": "Robert MacLean"
+    }
+  ],
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "accessibility.underlineLinks": true,
+  "git.pruneOnFetch": true,
+  "github.gitProtocol": "ssh",
+  "editor.codeActionsOnSave": {
+    "source.removeUnusedImports": "never"
+  },
+  "workbench.editor.pinnedTabSizing": "shrink",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "workbench.editorAssociations": {
+    "{git,gitlens,conflictResolution,vscode-local-history}:/**/*.tc.json": "default",
+    "*.lockb": "default"
+  },
+  "prettier.trailingComma": "all",
+  "editor.formatOnSaveMode": "modifications",
+  "diffEditor.useInlineViewWhenSpaceIsLimited": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[terraform]": {
+    "editor.defaultFormatter": "hashicorp.terraform"
+  },
+  "git.path": "",
+  "[aspnetcorerazor]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp"
+  },
+  "problems.decorations.enabled": false,
+  "editor.fontSize": 14,
+  "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "prettier.experimentalTernaries": true,
+  "material-icon-theme.activeIconPack": "vue_vuex",
+  "material-icon-theme.saturation": 0.8,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "ai-commit.AI_COMMIT_SYSTEM_PROMPT": "ensure commit messages are done in a commit lint compatible style",
+  "diffEditor.codeLens": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula Pro",
+  "terminal.integrated.suggest.enabled": true,
+  "[php]": {
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+  },
+  "window.newWindowProfile": "Default",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "workbench.navigationControl.enabled": false,
+  "window.commandCenter": false,
+  "github.copilot.advanced": {},
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "typescript": true,
+    "yaml": true,
+    "typescriptreact": false
+  },
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "remote.defaultExtensionsIfInstalledLocally": [],
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  "ai-commit.OPENAI_MODEL": "gpt-4.1-nano",
+  "typescript.implementationsCodeLens.showOnInterfaceMethods": true,
+  "typescript.referencesCodeLens.showOnAllFunctions": true,
+  "git.blame.statusBarItem.enabled": true,
+  "git.blame.editorDecoration.enabled": false,
+  "search.searchView.keywordSuggestions": true,
+  "telemetry.feedback.enabled": false,
+  "chat.mcp.serverSampling": {
+    "Global in Code: docker-mcp": {
+      "allowedModels": [
+        "github.copilot-chat/gpt-4.1",
+        "github.copilot-chat/Anthropic-claude-3-7-sonnet-20250219"
+      ]
+    }
+  },
+  "editor.aiStats.enabled": true,
+  "git.enableStatusBarSync": false,
+  "git.confirmSync": false,
+  "github.copilot.selectedCompletionModel": ""
 }
